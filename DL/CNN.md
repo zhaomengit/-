@@ -1,3 +1,4 @@
+```
 w = nd.arange(24).reshape((3,2,2,2))
 data = nd.arange(18).reshape((1,2,3,3))
 b = nd.array([1, 2, 3])
@@ -12,3 +13,4 @@ batch_size: 样本个数
 weight：(output_channels , in_channels, height, width)
 
 in_channels与channel保持一致；原因是当data有多个channel时，需要相应个数的filter来对应每个channel（每个通道会有对应的权重）
+```
